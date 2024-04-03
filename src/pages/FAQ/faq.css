@@ -1,0 +1,185 @@
+.faqTitle {
+	display: flex;
+	justify-content: center;
+	font-size: 60px;
+	font-weight: 700;
+	margin: 0;
+	padding-top: 80px;
+	color: white;
+}
+
+.faqMenusMain {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	color: white;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.activeMenuInBradCum {
+	color: #31b7e5;
+}
+
+.faqGradientBtnMain {
+	display: flex;
+	justify-content: center;
+}
+
+.faqGradientBtn {
+	white-space: nowrap;
+	background-image: linear-gradient(to right, #fcdfdf, #fce9df);
+	color: #ff8b6b;
+	margin-top: 150px;
+	font-size: 22px;
+	font-weight: 600;
+	padding: 10px 40px;
+	border-radius: 25px;
+	text-align: center;
+	/* max-width: 100px; */
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+}
+
+.faqTitleTwo {
+	margin: 0;
+	padding-top: 10px;
+	padding-bottom: 100px;
+	display: flex;
+	justify-content: center;
+	font-size: 60px;
+	font-weight: 700;
+}
+
+.accordion {
+	/* border: 1px solid #ccc; */
+	max-width: 1621px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 200px;
+}
+
+/* .accordion-item {
+	border-bottom: 1px solid #ccc;
+	display: flex;justify-content: space-between;
+} */
+
+.accordion-title {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/* border-top: 2px solid #f1f1f1; */
+	border-top: 2px solid #f1f1f1;
+	border-bottom: 2px solid #f1f1f1;
+	border-radius: 20px;
+	padding: 30px 50px;
+	cursor: pointer;
+	/* background-color: #f4f4f4; */
+	font-size: 32px;
+	font-weight: 700;
+	color: black;
+}
+
+.faqTitleText {
+	margin: 0;
+}
+
+.faqArrowIcon {
+	transform: rotate(-90deg);
+}
+
+.faqArrowIcon.active {
+	transform: rotate(90deg);
+}
+
+.accordion-title.active {
+	background-image: linear-gradient(to right, #9255ce, #be60ff);
+	/* border-top: 2px solid #f1f1f1; */
+	border-bottom: 2px solid #f1f1f1;
+	color: white;
+}
+
+.accordion-content {
+	padding: 45px 45px;
+	display: none;
+	font-weight: 400;
+	font-size: 24px;
+	color: #636363;
+	width: 742px;
+}
+
+.accordion-content.active {
+	display: block;
+}
+
+@media screen and (max-width: 1120px) {
+	.faqTitle {
+		font-size: 60px;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.accordion-title {
+		font-size: 25px;
+	}
+
+	.accordion-content {
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 840px) {
+	.faqTitle {
+		font-size: 40px;
+	}
+
+	.faqTitleTwo {
+		font-size: 40px;
+	}
+}
+
+@media screen and (max-width: 720px) {
+	.accordion-title {
+		font-size: 20px;
+	}
+
+	.accordion-content {
+		font-size: 16px;
+	}
+}
+
+@media screen and (max-width: 580px) {
+	.faqTitle {
+		padding-top: 120px;
+		font-size: 30px;
+	}
+
+	.faqMenusMain {
+		font-size: 20px;
+	}
+
+	.faqTitleTwo {
+		font-size: 30px;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	.faqTitle {
+		padding-top: 130px;
+
+		font-size: 20px;
+	}
+
+	.faqMenusMain {
+		font-size: 16px;
+	}
+
+	.faqTitleTwo {
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+}

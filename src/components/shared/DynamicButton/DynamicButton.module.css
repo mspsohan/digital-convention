@@ -1,0 +1,12 @@
+.dynamicBtnIcon {
+	transform: rotate(-45deg);
+	margin-left: 10px;
+}
+
+button {
+	display: flex;
+}
+
+.dynamicBtn {
+	text-decoration: none;
+}

@@ -1,0 +1,136 @@
+.chooseUs {
+	height: 100%;
+	width: 100%;
+	background: url('/src/assets/about/whyChooseBG.jpg');
+	padding: 250px 0 200px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+	position: relative;
+	margin-bottom: 200px;
+	margin-top: -300px;
+	overflow: hidden;
+}
+
+.metrics {
+	max-width: 1620px;
+	margin: 40px auto 0;
+	position: absolute;
+	left: 0;
+	right: 0;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 80px 0;
+	border-radius: 200px;
+	box-shadow: 0px 10px 40px 0px rgba(255, 132, 105, 0.5);
+	background: linear-gradient(90deg, rgb(255, 115, 105), rgb(255, 176, 109) 100%);
+}
+
+.metrics h3 {
+	font-size: 70px;
+	font-weight: 700;
+	margin: 0;
+	line-height: 0.6;
+}
+
+.metricsText {
+	font-size: 32px;
+	margin-top: 0;
+}
+
+/* Responsivness */
+@media screen and (max-width: 1619px) {
+	.metrics {
+		margin: 40px 20px;
+	}
+}
+
+@media screen and (max-width: 1441px) {
+	.chooseUs {
+		margin-top: -300px;
+	}
+	.metrics {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+}
+@media screen and (max-width: 1180px) {
+	.metrics {
+		padding: 40px 0;
+	}
+	.metrics h3 {
+		font-size: 50px;
+	}
+
+	.metricsText {
+		font-size: 22px;
+	}
+}
+@media screen and (max-width: 1025px) {
+	.metrics {
+		padding: 40px 0;
+	}
+	.metrics h3 {
+		font-size: 50px;
+	}
+
+	.metricsText {
+		font-size: 22px;
+	}
+}
+@media screen and (max-width: 800px) {
+	.chooseUs {
+		margin-top: -500px;
+	}
+	.metrics {
+		padding: 40px 0;
+		border-radius: 10px;
+	}
+
+	.metrics h3 {
+		font-size: 32px;
+	}
+
+	.metricsText {
+		font-size: 18px;
+	}
+}
+
+@media screen and (max-width: 675px) {
+	.chooseUs {
+		margin-bottom: 0;
+		padding-bottom: 10px;
+	}
+	.metrics {
+		padding: 30px 0;
+		margin-top: -60px;
+	}
+
+	.metrics h3 {
+		font-size: 22px;
+	}
+
+	.metricsText {
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.chooseUs {
+		margin-bottom: 0;
+		padding-bottom: 10px;
+	}
+	.metrics {
+		padding: 30px 0;
+		margin-top: -60px;
+	}
+
+	.metrics h3 {
+		font-size: 18px;
+	}
+
+	.metricsText {
+		font-size: 10px;
+	}
+}

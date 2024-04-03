@@ -1,0 +1,66 @@
+.contractMethodCardMain {
+	display: flex;
+	justify-content: space-between;
+	gap: 30px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	max-width: 1380px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.contractMethodCard {
+	max-width: 435px;
+	max-height: 381px;
+	width: 100%;
+	/* height: 100%; */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 10px;
+	border: 1px solid #e1e9f4;
+	padding-top: 30px;
+	padding-bottom: 70px;
+	/* padding: 50px; */
+}
+
+.contractMethodCard:hover {
+	border: 1px solid #ffffff;
+	transition: background-color 0.5s ease;
+}
+
+.contractMethodCard:hover {
+	background-color: #ffffff;
+	border: 0;
+	filter: drop-shadow(1px 0px 30px #e1e9f4);
+}
+
+.contractMethodCard h1 {
+	text-align: center;
+	font-size: 28px;
+	font-weight: 700;
+	padding-bottom: 10px;
+	margin: 0;
+}
+
+.contractMethodCard p {
+	text-align: center;
+	font-size: 24px;
+	font-weight: 400;
+	margin: 0;
+	color: #5d666f;
+}
+
+@media screen and (max-width: 1920px) {
+	.contractMethodCardMain {
+		padding-left: 20px;
+		padding-right: 20px;
+		flex-wrap: wrap;
+	}
+
+	.contractMethodCard {
+		margin-left: auto;
+		margin-right: auto;
+	}
+}

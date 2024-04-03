@@ -1,0 +1,477 @@
+.banner {
+	background: url('../../../assets/homeAssets/Hero.jpg');
+	background-size: cover;
+	height: 1202px;
+	color: #fff;
+	position: relative;
+	background-position: center;
+}
+
+.banner-sidebar {
+	padding-top: 230px;
+	max-width: 1620px;
+	margin: auto;
+}
+
+.banner h1 {
+	font-size: 80px;
+	font-weight: 700;
+	margin: 0;
+	width: 54%;
+	line-height: 96px;
+}
+
+.banner p {
+	font-size: 24px;
+	font-weight: 400;
+	margin-top: 40px;
+}
+
+.banner .banner-btn {
+	padding: 16px 36px 16px 36px;
+	gap: 12px;
+	display: flex;
+	gap: 15px;
+	border-radius: 10px;
+	border: none;
+	color: #fff;
+	background: linear-gradient(135deg, #2f057b, #6441c1);
+	margin-top: 40px;
+	cursor: pointer;
+}
+
+.logo-container {
+	background-color: white;
+	padding: 40px 0px;
+	max-width: 1620px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	border-radius: 25px;
+	gap: 30px;
+	position: relative;
+	bottom: -250px;
+	overflow-x: auto;
+	scrollbar-width: none;
+}
+
+.logo-container img {
+	max-width: 60%;
+}
+
+.under-banner {
+	background: url('../../../assets/homeAssets/statistic_Number.png');
+	background-size: cover;
+	background-position: center;
+	height: 1702px;
+	margin-top: -280px;
+	z-index: -1;
+	display: flex;
+	align-items: center;
+	padding: 0 150px;
+}
+
+.sub-banner-contant {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 150px;
+}
+
+.sub-banner-contant img {
+	width: 100%;
+}
+
+.sub-banner-card-contant h1 {
+	font-size: 80px;
+	font-weight: 700;
+	line-height: 75px;
+}
+
+.sub-banner-card-contant {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.sub-banner-card-contant p {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+/* card 1 */
+
+.sub-banner-card {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: white;
+	padding: 0px 65px;
+	gap: 55px;
+	position: relative;
+	border-radius: 20px;
+	box-shadow: 1px 0px 12px 4px #dadbdc96;
+	transition: 0.3s;
+}
+
+.sub-banner-card h1 {
+	background: -webkit-linear-gradient(#ff7369, #ffb06d);
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.sub-banner-card::after {
+	content: '';
+	height: 100%;
+	width: 2%;
+	position: absolute;
+	right: 0px;
+	background: linear-gradient(#ff7369, #ffb06d);
+	border-radius: 0 20px 20px 0;
+}
+
+.sub-banner-card:hover {
+	transform: translateX(-80px);
+	background: linear-gradient(#ff7369, #ffb06d);
+	color: white;
+	box-shadow: 1px 0px 12px 4px #fce94096;
+}
+
+.sub-banner-card:hover::after {
+	width: 0px;
+}
+
+.sub-banner-card:hover h1 {
+	background: -webkit-linear-gradient(#ffffff, #ffffff);
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+/* card 2 */
+
+.sub-banner-card-2 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: white;
+	padding: 0px 65px;
+	gap: 55px;
+	position: relative;
+	border-radius: 20px;
+	box-shadow: 1px 0px 12px 4px #dadbdc96;
+	transition: 0.3s;
+}
+
+.sub-banner-card-2 h1 {
+	background: linear-gradient(#40ccfc, #1aecf5);
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.sub-banner-card-2::after {
+	content: '';
+	height: 100%;
+	width: 2%;
+	position: absolute;
+	right: 0px;
+	background: linear-gradient(#40ccfc, #1aecf5);
+	border-radius: 0 20px 20px 0;
+}
+
+.sub-banner-card-2:hover {
+	transform: translateX(-80px);
+	background: linear-gradient(#40ccfc, #1aecf5);
+	color: white;
+	box-shadow: 1px 0px 12px 4px #40c0fc96;
+}
+
+.sub-banner-card-2:hover h1 {
+	background: -webkit-linear-gradient(#ffffff, #ffffff);
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.sub-banner-card-2:hover::after {
+	width: 0px;
+}
+
+/* card 3 */
+
+.sub-banner-card-3 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: white;
+	padding: 0px 65px;
+	gap: 55px;
+	position: relative;
+	border-radius: 20px;
+	box-shadow: 1px 0px 12px 4px #dadbdc96;
+	transition: 0.3s;
+}
+
+.sub-banner-card-3 h1 {
+	background: -webkit-linear-gradient(#9255ce, #be60ff);
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.sub-banner-card-3::after {
+	content: '';
+	height: 100%;
+	width: 2%;
+	position: absolute;
+	right: 0px;
+	background: linear-gradient(#9255ce, #be60ff);
+	border-radius: 0 20px 20px 0;
+}
+
+.sub-banner-card-3:hover {
+	transform: translateX(-80px);
+	background: linear-gradient(#9255ce, #be60ff);
+	color: white;
+	box-shadow: 1px 0px 12px 4px #744dff96;
+}
+
+.sub-banner-card-3:hover h1 {
+	background: -webkit-linear-gradient(#ffffff, #ffffff);
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.sub-banner-card-3:hover::after {
+	width: 0px;
+}
+
+/* card 4 */
+
+.sub-banner-card-4 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: white;
+	padding: 0px 65px;
+	gap: 55px;
+	position: relative;
+	border-radius: 20px;
+	box-shadow: 1px 0px 12px 4px #dadbdc96;
+	transition: 0.3s;
+}
+
+.sub-banner-card-4 h1 {
+	background: -webkit-linear-gradient(#00fff0, #00d3c7);
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.sub-banner-card-4::after {
+	content: '';
+	height: 100%;
+	width: 2%;
+	position: absolute;
+	right: 0px;
+	background: linear-gradient(#00fff0, #00d3c7);
+	border-radius: 0 20px 20px 0;
+}
+
+.sub-banner-card-4:hover {
+	transform: translateX(-80px);
+	background: linear-gradient(#00fff0, #00d3c7);
+	color: white;
+	box-shadow: 1px 0px 12px 4px #40fcc496;
+}
+
+.sub-banner-card-4:hover h1 {
+	background: -webkit-linear-gradient(#ffffff, #ffffff);
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.sub-banner-card-4:hover::after {
+	width: 0px;
+}
+
+@media screen and (max-width: 1620px) {
+	.banner {
+		padding: 0 20px;
+	}
+
+	.under-banner {
+		padding: 0 20px;
+	}
+
+	.under-banner {
+		margin-top: -364px;
+	}
+
+	.banner-sidebar {
+		padding-top: 150px;
+	}
+}
+
+/* laptop */
+
+@media screen and (max-width: 1230px) {
+	.banner-sidebar {
+		padding-top: 126px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+
+	.sub-banner-contant {
+		gap: 72px;
+	}
+
+	.banner h1 {
+		font-size: 50px;
+		font-weight: 700;
+		margin: 0;
+		/* width: 54%; */
+		line-height: normal;
+	}
+
+	.sub-banner-card-contant h1 {
+		font-size: 60px;
+		font-weight: 700;
+		line-height: 47px;
+	}
+
+	.sub-banner-card .sub-banner-card-2 .sub-banner-card-3 .sub-banner-card-4 {
+		gap: 25px;
+	}
+
+	.banner {
+		padding: 0 20px;
+	}
+
+	.under-banner {
+		padding: 0 20px;
+	}
+}
+
+@media screen and (max-width: 1080px) {
+	.sub-banner-contant {
+		flex-direction: column;
+	}
+
+	.sub-banner-contant img {
+		width: 75%;
+	}
+}
+
+/* mobile */
+
+@media screen and (max-width: 768px) {
+	.banner-sidebar {
+		padding-top: 126px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+
+	.sub-banner-contant {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		gap: 150px;
+		flex-direction: column;
+	}
+
+	.sub-banner-contant img {
+		width: 100%;
+	}
+
+	.logo-container img {
+		max-width: 15%;
+	}
+
+	.sub-banner-card .sub-banner-card-2 .sub-banner-card-3 .sub-banner-card-4 {
+		padding: 0px 29px;
+		gap: 31px;
+	}
+
+	.banner h1 {
+		font-size: 32px;
+		font-weight: 700;
+		margin: 0;
+		width: 100%;
+		line-height: normal;
+	}
+
+	.sub-banner-card-contant p {
+		font-size: 15px;
+		font-weight: 600;
+	}
+
+	.sub-banner-card-contant h1 {
+		font-size: 30px;
+		font-weight: 700;
+		line-height: 47px;
+	}
+
+	.banner h1 {
+		font-size: 50px;
+		font-weight: 700;
+		margin: 0;
+		/* width: 54%; */
+		line-height: normal;
+	}
+
+	.banner {
+		padding: 0 20px;
+	}
+
+	.under-banner {
+		padding: 0 20px;
+		margin-bottom: -350px;
+	}
+
+	.logo-container {
+		padding: 27px 23px;
+
+		gap: 35px;
+		position: relative;
+		bottom: -223px;
+		margin: auto;
+		left: 0;
+		right: 0;
+		overflow-x: auto;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.sub-banner-card,
+	.sub-banner-card-2,
+	.sub-banner-card-3,
+	.sub-banner-card-4 {
+		padding: 0px 25px;
+		gap: 25px;
+		overflow: hidden;
+	}
+
+	.banner h1 {
+		font-size: 40px;
+	}
+
+	.banner {
+		height: 1052px;
+	}
+
+	.logo-container {
+		bottom: -140px;
+	}
+
+	.under-banner {
+		height: 1502px;
+
+		padding: 0 20px;
+	}
+
+	.sub-banner-contant {
+		gap: 50px;
+	}
+}

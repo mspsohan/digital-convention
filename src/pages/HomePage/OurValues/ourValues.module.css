@@ -1,0 +1,123 @@
+.value {
+	max-width: 1620px;
+	margin: 120px auto;
+}
+
+.value button {
+	padding: 16px 32px;
+	font-size: 22px;
+	font-weight: 600;
+	border-radius: 67.06px;
+	color: #7360f2;
+	background-color: #e1defb;
+	border: none;
+}
+
+.value h3 {
+	font-size: 60px;
+	font-weight: 700;
+	line-height: 0px;
+}
+
+.cardContainer {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 20px;
+}
+
+.valueCard {
+	padding: 5rem 3rem;
+	border-radius: 20px;
+	background: rgb(253, 253, 253);
+	position: relative;
+	box-shadow: 0 8px 30px rgb(0, 0, 0, 0.12);
+	min-width: 220px;
+}
+
+.valueCard .cardIcon {
+	height: 160px;
+	width: 160px;
+}
+
+.valueCard h4 {
+	font-size: 2rem;
+	font-weight: 700;
+	margin: 1rem 0;
+	/* border: 1px solid red; */
+}
+
+.rectangle {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.borderLine {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 12px;
+	width: 100%;
+	z-index: 40;
+	border-radius: 0px 0px 20px 20px;
+}
+
+.borderLine1 {
+	background: linear-gradient(90deg, rgb(146, 85, 206), rgb(190, 96, 255) 100%);
+}
+.borderLine2 {
+	background: linear-gradient(90deg, rgb(0, 255, 240), rgb(0, 211, 199) 100%);
+}
+.borderLine3 {
+	background: linear-gradient(90deg, rgb(255, 115, 105), rgb(255, 176, 109) 100%);
+}
+.borderLine4 {
+	background: linear-gradient(90deg, rgb(64, 204, 252), rgb(26, 236, 245) 100%);
+}
+
+/* Mobile Responsive for max width 1620 px */
+@media screen and (max-width: 1619px) {
+	.value {
+		padding: 0 1rem;
+	}
+}
+/* Mobile Responsive for max width 1445 px */
+@media screen and (max-width: 1445px) {
+	.cardContainer {
+		grid-template-columns: repeat(4, 1fr);
+	}
+	.valueCard {
+		padding: 4rem 1rem;
+	}
+}
+
+/* Mobile Responsive for max width 1025 px */
+@media screen and (max-width: 1100px) {
+	.cardContainer {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+/* Mobile Responsive for max width 769 px */
+@media screen and (max-width: 850px) {
+	.cardContainer {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.value h3 {
+		font-size: 40px;
+		font-weight: 700;
+		line-height: 40px;
+	}
+}
+
+/* Mobile Responsive for max width 426 px */
+@media screen and (max-width: 576px) {
+	.value h3 {
+		font-size: 40px;
+		font-weight: 700;
+		line-height: 40px;
+	}
+	.cardContainer {
+		grid-template-columns: 1fr;
+	}
+}

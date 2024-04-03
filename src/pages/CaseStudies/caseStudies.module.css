@@ -1,0 +1,137 @@
+.featuredProjects {
+	max-width: 1620px;
+	margin: 200px auto;
+	padding-inline: 10px;
+}
+
+.cardContainer {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 20px;
+}
+
+.card {
+	min-height: 500px;
+	background-color: #c4c4c4;
+	border-radius: 10px;
+	position: relative;
+	display: flex;
+	align-items: end;
+}
+
+.iconDiv {
+	height: 40%;
+	width: 100%;
+	position: relative;
+	bottom: 0;
+	left: 0;
+}
+
+.path {
+	height: 40%;
+	width: 100%;
+	background: linear-gradient(90deg, rgb(47, 5, 123), rgb(100, 65, 193) 100%);
+	clip-path: polygon(0 20%, 80% 20%, 85% 100%, 0% 100%);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 1;
+	border-bottom-left-radius: 10px;
+}
+
+.path:hover {
+	background: linear-gradient(90deg, rgb(255, 115, 105), rgb(255, 176, 109) 100%);
+}
+
+.pathButton {
+	z-index: 99;
+	position: absolute;
+	top: 63%;
+	left: 75%;
+	font-size: 32px;
+	padding: 17px 17px;
+	border: none;
+	border-radius: 100%;
+	cursor: pointer;
+}
+
+.featureContent {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	row-gap: 30px;
+	margin-bottom: 1rem;
+	margin-left: 2rem;
+	max-width: 450px;
+}
+
+.featureContent h6 {
+	color: #dededea9;
+	margin-bottom: 0.5rem;
+}
+
+.featureContent p {
+	color: #fff;
+	font-size: 16px;
+	font-weight: 600;
+	margin-top: 0;
+	margin-bottom: 0.5rem;
+}
+
+.featureContent h5 {
+	color: #fff;
+	font-size: 32px;
+	font-weight: 600;
+	margin: 0.5rem 0 1rem 0;
+	max-width: 220px;
+}
+
+@media screen and (max-width: 1220px) {
+	.featureContent h5 {
+		font-size: 28px;
+	}
+
+	.featureContent {
+		max-width: 400px;
+	}
+}
+
+@media screen and (max-width: 1090px) {
+	.cardContainer {
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	.featureContent h5 {
+		font-size: 32px;
+	}
+
+	.featureContent {
+		max-width: 400px;
+	}
+}
+
+@media screen and (max-width: 556px) {
+	.featureContent {
+		gap: 0px;
+		margin-left: 1rem;
+		max-width: 300px;
+	}
+
+	.path {
+		height: 45%;
+	}
+
+	.pathButton {
+		top: 57%;
+		left: 74%;
+	}
+
+	.featureContent p {
+		font-size: 14px;
+	}
+
+	.featureContent h5 {
+		font-size: 20px;
+		max-width: 130px;
+	}
+}

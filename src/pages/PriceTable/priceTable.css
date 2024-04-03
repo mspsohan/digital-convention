@@ -1,0 +1,141 @@
+.threePricingCardsMainDiv {
+	max-width: 1621px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.priceCardMain {
+	background-color: rgb(255, 255, 255);
+	max-width: 527px;
+	width: 100%;
+	border-radius: 25px;
+	box-shadow: 5px;
+	margin-bottom: 100px;
+	box-shadow: 1px 0px 12px 4px #e0e0e096;
+	transition: background-color 0.5s ease;
+}
+
+.priceCardMain:hover {
+	background: #f6f6f6;
+	transform: scale(1.01);
+	transition: 0.5s;
+}
+
+.priceCardBgImg {
+	margin-top: -25px;
+}
+
+.priceCardPackagesName {
+	font-size: 32px;
+	font-weight: 400;
+	text-align: center;
+	margin: 0;
+	padding-top: 70px;
+	padding-bottom: 5px;
+}
+
+.priceCardPackagesPriceMain {
+	font-family: 'Outfit', sans-serif;
+	/* background-color: blanchedalmond; */
+	font-size: 72px;
+	font-weight: 600;
+	text-align: center;
+	margin: 0;
+	/* position: relative; */
+}
+
+.priceCardPackagesPriceIcon {
+	/* position: absolute; */
+	/* background-color: aqua; */
+	font-size: 32px;
+	font-weight: 400;
+	text-align: center;
+	margin: 0;
+	/* margin-top: -4px; */
+	/* display: block; */
+	/* padding-bottom: 40px; */
+}
+
+.priceCardPackagesMonth {
+	font-size: 16px;
+	font-weight: 400;
+	text-align: center;
+	margin: 0;
+}
+
+.packageFeaturesMain {
+	/* background-color: aquamarine; */
+	padding-top: 40px;
+	padding-bottom: 60px;
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
+.packageFeature {
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	gap: 10px;
+	padding-top: 35px;
+}
+
+.packageFeatureIcon {
+	width: 25px;
+	height: 25px;
+	/* background-color: black; */
+}
+
+.packageFeatureText {
+	margin: 0;
+	font-size: 24px;
+	font-weight: 600;
+	color: #636363;
+}
+
+.pricingCardBtnMain {
+	width: 100%;
+	background-color: aqua;
+	margin-bottom: 30px;
+}
+
+.pricingCardBtn {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	width: 100%;
+	color: white;
+	padding: 16px 30px;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: semibold;
+	margin-top: 120px;
+}
+
+.pricingCardBtn1 {
+	background: linear-gradient(to right, #ff7e5f, #feb47b);
+}
+
+.pricingCardBtn2 {
+	background: linear-gradient(to right, #9255ce, #be60ff);
+}
+
+.pricingCardBtn3 {
+	background: linear-gradient(to right, #40ccfc, #1aecf5);
+}
+
+@media screen and (max-width: 1920px) {
+	.threePricingCardsMainDiv {
+		padding-left: 20px;
+		padding-right: 20px;
+		flex-wrap: wrap;
+	}
+
+	.priceCardMain {
+		margin-left: auto;
+		margin-right: auto;
+	}
+}

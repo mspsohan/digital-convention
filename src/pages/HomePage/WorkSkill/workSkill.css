@@ -1,0 +1,97 @@
+.skill-con {
+	max-width: 1620px;
+	margin: auto;
+	margin-top: -250px;
+	overflow: hidden;
+}
+
+.sub-skill h1 {
+	font-size: 60px;
+	line-height: 60px;
+	margin: 15px;
+	text-align: center;
+}
+
+.sub-skill span {
+	text-align: center;
+}
+
+.sub-skill p {
+	padding: 8px 15px;
+	color: #2db5b3;
+	font-weight: 600;
+	border-radius: 20px;
+	width: fit-content;
+	background-color: #35e1de29;
+	text-align: center;
+}
+
+.sub-skill {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 50%;
+	margin: auto;
+}
+
+.loader-con {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 40px;
+	align-items: end;
+}
+
+.loader-con div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.loader-con div h3 {
+	margin: 0;
+}
+
+@media screen and (max-width: 1250px) {
+	.skill-con {
+		margin-top: -60px;
+	}
+
+	.loader-con {
+		justify-content: center;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: 50px;
+	}
+
+	.service-option-con p span {
+		font-size: 18px;
+		font-weight: 500;
+		color: gray;
+	}
+
+	.sub-skill {
+		width: 70%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.skill-con {
+		padding: 0 20px;
+	}
+
+	.service-option-con p span {
+		font-size: 16px;
+		font-weight: 500;
+		color: gray;
+	}
+
+	.sub-skill {
+		width: 100%;
+	}
+
+	.sub-skill h1 {
+		font-size: 45px;
+		line-height: 49px;
+		margin: 10px;
+	}
+}

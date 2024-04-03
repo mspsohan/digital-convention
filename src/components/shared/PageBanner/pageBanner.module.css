@@ -1,0 +1,28 @@
+.pageBanner h2 {
+	font-size: 3.5vw;
+	max-width: 70%;
+}
+
+.pageBanner div {
+	margin-top: 30px;
+}
+
+@media screen and (max-width: 1025px) {
+	.pageBanner h2 {
+		font-size: 32px;
+		max-width: 80%;
+	}
+	.pageBanner div a {
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 710px) {
+	.pageBanner h2 {
+		font-size: 32px;
+		max-width: 90%;
+	}
+	.pageBanner div a {
+		font-size: 18px;
+	}
+}

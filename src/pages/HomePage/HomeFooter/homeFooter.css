@@ -1,0 +1,160 @@
+.main-footer {
+	background: url('/src/assets/homeAssets/Footer.png');
+	background-size: cover;
+	height: 896px;
+	color: #fff;
+	background-repeat: no-repeat;
+	width: 100%;
+	background-position: center;
+	display: flex;
+	justify-content: end;
+	flex-direction: column;
+}
+
+.sub-footer {
+	margin-top: 12px;
+	max-width: 1620px;
+	margin: auto;
+}
+
+.footer {
+	max-width: 1620px;
+	margin: auto;
+	display: flex;
+	align-items: start;
+	justify-content: space-between;
+	gap: 190px;
+	margin-bottom: 50px;
+	line-height: 30px;
+}
+
+.logo-sec p {
+	display: flex;
+	gap: 3px;
+	align-items: center;
+	text-wrap: nowrap;
+}
+
+.logo-sec img {
+	margin: 0 0 20px 0;
+}
+
+.input-con {
+	border: 2px solid gray;
+	padding: 5px;
+	border-radius: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.input-con input {
+	width: 100%;
+	height: 100%;
+	background: transparent;
+	outline: none;
+	border: none;
+	font-size: 18px;
+	color: #fff;
+}
+
+.menu-sec {
+	display: flex;
+	align-items: start;
+	gap: 100px;
+	text-wrap: nowrap;
+	line-height: 18px;
+}
+
+.under-footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 15px 0;
+}
+
+.footer-logo-con {
+	display: flex;
+	gap: 8px;
+	font-size: 13px;
+}
+.footer-logo-con span {
+	color: white;
+}
+
+.footer-logo-con span {
+	background-color: rgba(222, 219, 219, 0.227);
+	padding: 8px;
+	border-radius: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.menu-sec p {
+	margin: 10px;
+}
+
+@media screen and (max-width: 1620px) {
+	.sub-footer {
+		padding: 0 20px;
+	}
+	.footer {
+		gap: 100px;
+	}
+
+	.menu-sec p {
+		margin: 10px 0 0 0;
+	}
+
+	.footer {
+		gap: 10px;
+		margin-bottom: 7px;
+		line-height: 25px;
+		flex-wrap: wrap;
+	}
+
+	.logo-sec p {
+		margin: 8px 0 0 0;
+	}
+
+	.menu-sec h2 {
+		line-height: 30px;
+	}
+
+	.input-con {
+		padding: 0px;
+	}
+
+	.email-sec {
+		width: 48%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.under-footer {
+		align-items: start;
+		flex-direction: column;
+	}
+	.footer p {
+		font-size: 15px;
+		text-wrap: wrap;
+	}
+
+	.logo-sec img {
+		margin: 0 0 0px 0;
+	}
+
+	.email-sec {
+		width: 100%;
+	}
+
+	.under-footer {
+		margin: 5px 0;
+	}
+
+	.under-footer p,
+	.under-footer span {
+		font-size: small;
+	}
+}

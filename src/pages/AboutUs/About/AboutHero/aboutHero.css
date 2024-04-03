@@ -1,0 +1,51 @@
+.aboutHeroSection {
+	max-width: 1620px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	padding-top: 160px;
+	gap: 20px;
+	overflow: hidden;
+}
+
+.aboutHeroImg {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.aboutHeroDic {
+	max-width: 575px;
+}
+
+.heroTittle {
+	font-size: 64px;
+	color: #ff7268;
+	font-weight: 700;
+}
+
+.heroTittleText {
+	font-size: 38px;
+}
+
+.heroSmallTitle {
+	font-size: 20px;
+}
+
+@media screen and (max-width: 1620px) {
+	.aboutHeroSection {
+		padding: 20px;
+	}
+}
+
+@media screen and (max-width: 1380px) {
+	.aboutHeroSection {
+		flex-direction: column-reverse;
+	}
+
+	.aboutHeroDic {
+		max-width: 100%;
+	}
+}

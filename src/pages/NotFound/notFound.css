@@ -1,0 +1,135 @@
+.notFound404 {
+   font-size: 336px;
+   font-weight: 700;
+   text-align: center;
+   margin: 0;
+   padding-top: 225px;
+   color: #b75ef8;
+   line-height: 295px;
+}
+
+
+.notFoundSecondTitle {
+   font-size: 70px;
+   font-weight: 700;
+   text-align: center;
+   margin: 0;
+   padding-top: 20px;
+}
+
+.notFoundSecondTextMain {
+   display: flex;
+   justify-content: center;
+}
+
+.notFoundSecondText {
+   font-size: 34px;
+   font-weight: 400;
+   text-align: center;
+   margin: 0;
+   padding-top: 20px;
+   color: #616161;
+   max-width: 1074px;
+   padding-bottom: 20px;
+}
+
+
+.searchBoxMain {
+
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   max-width: 1074px;
+   margin-left: auto;
+   margin-right: auto;
+   background-color: #F6F6F6;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   border-top-left-radius: 8px;
+   border-bottom-left-radius: 8px;
+}
+
+.searchText {
+   font-size: 23px;
+   padding: 20px;
+   font-weight: 400;
+   color: #5D666F;
+   margin: 0;
+}
+
+.searchIcon {
+   font-size: 30px;
+   padding: 20px;
+   background-color: #7360f2;
+   border-radius: 8px;
+   color: white;
+}
+
+
+.goBackToHomeBtnMain {
+   display: flex;
+   justify-content: center;
+   margin-bottom: 150px;
+}
+
+.goBackToHomeBtn {
+   text-decoration: none;
+   color: white;
+   font-size: 23px;
+   font-weight: 700;
+   padding: 20px 30px;
+   background-color: #b75ef8;
+   border-radius: 8px;
+}
+
+
+@media screen and (max-width: 1920px) {
+   .notFound404Main {
+       padding-left: 20px;
+       padding-right: 20px;
+   }
+}
+
+@media screen and (max-width: 750px) {
+
+   .notFound404 {
+       font-size: 200px;
+   }
+
+   .notFoundSecondTitle {
+       font-size: 55px;
+
+   }
+
+   .notFoundSecondText {
+       font-size: 24px;
+
+   }
+
+}
+
+@media screen and (max-width: 525px) {
+
+   .notFound404 {
+       font-size: 150px;
+   }
+
+   .notFoundSecondTitle {
+       font-size: 40px;
+
+   }
+
+   .notFoundSecondText {
+       font-size: 18px;
+
+   }
+
+}
+
+@media screen and (max-width: 750px) {
+
+   /* .notFound404 {}
+
+   .notFoundSecondTitle {} */
+
+}

@@ -1,0 +1,182 @@
+.main-work-con {
+	background: url('../../../assets/homeAssets/work_Process.png');
+	height: 2021px;
+	background-repeat: no-repeat;
+	max-width: 100%;
+	background-position: center;
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	overflow: hidden;
+}
+
+.work-con {
+	max-width: 1620px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: end;
+	gap: 150px;
+}
+
+.work-left h1 {
+	font-size: 60px;
+	line-height: 60px;
+	margin: 15px;
+}
+.work-left p {
+	padding: 8px 15px;
+	color: #2db5b3;
+	font-weight: 600;
+	border-radius: 20px;
+	width: fit-content;
+	background-color: #35e1de29;
+}
+
+.work-left div {
+	width: 642px;
+	height: 700px;
+	background-color: rgba(215, 213, 213, 0.635);
+	border-radius: 20px;
+}
+
+.work-card {
+	padding: 20px 60px;
+	background-color: white;
+	border-radius: 20px;
+	box-shadow: 1px 0px 12px 4px #dadbdc63;
+	/* position: relative; */
+}
+
+.work-card img {
+	position: absolute;
+	z-index: 2;
+	left: -80px;
+}
+
+.work-card-0 img {
+	top: 20px;
+}
+
+.work-card-1 img {
+	top: 220px;
+}
+.work-card-2 img {
+	bottom: 190px;
+}
+.work-card-3 img {
+	bottom: 0;
+}
+
+.work-right {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	position: relative;
+	width: 55%;
+}
+
+.sub-work-right {
+	position: absolute;
+	height: 75%;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	width: 10px;
+	border-left: 1px dashed rgb(30, 119, 125);
+}
+
+@media screen and (max-width: 1620px) {
+	.main-work-con {
+		padding: 0 20px;
+		gap: 30px;
+	}
+	.work-left div {
+		height: 819px;
+		width: 100%;
+		border-radius: 35px;
+	}
+
+	.work-con {
+		gap: 77px;
+	}
+}
+
+@media screen and (max-width: 1250px) {
+	.main-work-con {
+		padding: 0 20px;
+	}
+
+	.work-con {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.work-right {
+		width: 80%;
+	}
+}
+
+@media screen and (max-width: 769px) {
+	.main-work-con {
+		padding: 0 20px;
+		margin: -168px 0;
+	}
+	.work-right {
+		width: 85%;
+	}
+
+	.work-left div {
+		height: 410px;
+		width: 100%;
+		border-radius: 35px;
+	}
+
+	.work-card-1 img {
+		top: 291px;
+	}
+
+	.work-card-2 img {
+		bottom: 271px;
+	}
+
+	.work-left h1 {
+		font-size: 45px;
+		line-height: 49px;
+		margin: 10px;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.work-right {
+		width: 100%;
+	}
+
+	.work-card {
+		padding: 20px 50px;
+	}
+
+	.work-card img {
+		left: -60px;
+	}
+
+	.work-card {
+		padding: 20px 20px 20px 62px;
+	}
+
+	.work-left h1 {
+		font-size: 35px;
+		line-height: 39px;
+		margin: 10px;
+	}
+
+	.sub-skill h1 {
+		font-size: 35px;
+		line-height: 39px;
+	}
+
+	.sub-skill span {
+		text-align: center;
+		font-size: 16px;
+	}
+}

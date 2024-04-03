@@ -1,0 +1,151 @@
+.services {
+	max-width: 1920px;
+	margin: 100px auto;
+	overflow: hidden;
+	padding: 0 5px;
+}
+
+.servicesTitle {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.servicesTitle button {
+	padding: 16px 32px;
+	font-size: 22px;
+	font-weight: 600;
+	border-radius: 67.06px;
+	color: #f87d6c;
+	background-color: #fce3e0;
+	border: none;
+	max-width: max-content;
+}
+
+.servicesTitle h3 {
+	font-size: 60px;
+	font-weight: 700;
+	text-align: center;
+	max-width: 800px;
+	margin-top: 1rem;
+}
+
+.cardContainer {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	margin-top: 50px;
+	gap: 0.7em;
+}
+
+.card {
+	position: relative;
+	overflow: hidden;
+	max-height: 600px;
+	min-height: 400px;
+	width: 100%;
+	border-bottom-right-radius: 20px;
+	margin: 0 auto;
+	box-sizing: border-box;
+	text-align: left;
+	box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+}
+.card img {
+	height: 100%;
+	width: 100%;
+}
+.layer {
+	z-index: 1;
+	position: absolute;
+	top: calc(100% - 2px);
+	height: 100%;
+	width: 100%;
+	left: 0;
+	background: linear-gradient(
+		0deg,
+		rgb(255, 115, 105) 0.89%,
+		rgb(255, 176, 109) 52.61%,
+		rgba(255, 176, 109, 0) 87.24%
+	);
+	transition: 0.5s;
+}
+
+.content {
+	z-index: 2;
+	position: absolute;
+	bottom: 10%;
+	left: 15%;
+}
+
+.card:hover .layer {
+	top: 100px;
+}
+
+.details h2 {
+	font-size: 80px;
+	color: white;
+	line-height: 0px;
+}
+
+.details p {
+	font-size: 22px;
+	color: white;
+	transition: 0.5s;
+	max-width: 200px;
+	z-index: 1;
+}
+
+.card button {
+	display: none;
+}
+
+.card:hover button {
+	position: absolute;
+	display: block;
+	bottom: 0;
+	right: 0;
+	font-size: 30px;
+	padding: 20px 30px;
+	margin-top: 5px;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px 0 0 0;
+	z-index: 40;
+}
+
+/* Mobile Responsive for max width 1620 px */
+@media screen and (max-width: 1619px) {
+	.cardContainer {
+		padding: 0 1rem;
+	}
+}
+
+/* Mobile Responsive for max width 1025 px */
+@media screen and (max-width: 1025px) {
+	.servicesTitle h3 {
+		font-size: 50px;
+	}
+}
+
+/* Mobile Responsive for max width 960 px */
+@media screen and (max-width: 960px) {
+	.cardContainer {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+/* Mobile Responsive for max width 769 px */
+@media screen and (max-width: 769px) {
+	.servicesTitle h3 {
+		font-size: 45px;
+	}
+}
+
+/* Mobile Responsive for max width 576 px */
+@media screen and (max-width: 576px) {
+	.cardContainer {
+		grid-template-columns: 1fr;
+	}
+	.servicesTitle h3 {
+		font-size: 40px;
+	}
+}

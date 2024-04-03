@@ -1,0 +1,437 @@
+.main-div1-con {
+	max-width: 1620px;
+	margin: 100px auto;
+}
+
+.div1-con {
+	margin: 50px 0;
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	gap: 30px;
+}
+
+.div1-left {
+    height: 696px;
+    max-width: 1210px;
+    border-radius: 20px;
+    grid-column: 1/span 9;
+}
+
+.div1-left img{
+    height: 100%;
+    width: 100%;
+}
+
+.div1-right {
+	grid-column: 10 / span 3;
+}
+
+.div1-right p {
+	padding: 20px;
+	border-bottom: 1px solid rgb(200, 200, 200);
+	max-width: 70%;
+	margin: 0;
+}
+
+.div1-right p:nth-child(8) {
+	padding: 20px;
+	border: none;
+	max-width: 70%;
+	margin: 0;
+}
+
+.div1-right p:hover {
+	background: linear-gradient(90deg, #ff7369, #ffb06d);
+	border-radius: 10px;
+	color: white;
+	cursor: pointer;
+	border: none;
+	box-shadow: 1px 1px 8px 1px #ff846980;
+}
+
+.under-div1-con {
+	max-width: 70%;
+}
+
+.under-div1-con h1 {
+	font-size: 70px;
+}
+
+.under-div1-con h2 {
+	font-size: 32px;
+	color: #7360f2;
+}
+
+.under-div1-con p {
+	font-size: 18px;
+	line-height: 35px;
+	font-weight: 600;
+	color: gray;
+}
+
+.service-option-con h2 {
+	font-size: 32px;
+	font-weight: 700;
+	position: relative;
+	padding: 0 0 20px 0;
+}
+
+.service-option-con h2::after {
+	content: '';
+	position: absolute;
+	width: 60px;
+	border-radius: 20px;
+	height: 6px;
+	bottom: 0;
+	left: 0;
+	background-color: #7360f2;
+}
+
+.service-option-con p span {
+	font-size: 25px;
+	font-weight: 500;
+	color: gray;
+}
+
+.service-option-con span {
+	margin-left: 30px;
+	padding: 10px 0;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.under-service-op {
+	max-width: 70%;
+	margin-top: 50px;
+}
+
+.under-ser-div1 {
+	display: flex;
+	justify-content: space-between;
+	gap: 30px;
+}
+
+.under-ser-div1 div {
+
+    width: 580px;
+    height: 408px;
+}
+
+.under-ser-div1 div img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.under-service-op {
+	font-size: 18px;
+	line-height: 35px;
+	font-weight: 600;
+	color: gray;
+}
+
+.under-ser-div3 p {
+	font-size: 18px;
+	line-height: 35px;
+	font-weight: 600;
+	color: gray;
+	max-width: 70%;
+}
+
+.under-ser-div2 {
+
+    width: 70%;
+    height: 720px;
+    background-color: gray;
+}
+
+.under-ser-div2 img {
+   height: 100%;
+   width: 100%;
+
+}
+
+.client-head h1 {
+	font-size: 60px;
+	line-height: 60px;
+	margin: 20px;
+	text-align: center;
+}
+
+.client-head p {
+	padding: 8px 15px;
+	color: #2db5b3;
+	font-weight: 600;
+	border-radius: 20px;
+	width: fit-content;
+	background-color: #35e1de29;
+	text-transform: uppercase;
+	margin: auto;
+}
+
+.clientSay-con {
+	margin-top: 100px;
+	position: relative;
+}
+
+.clientSay-con::after {
+	content: '';
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	background-color: #ffc061;
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	z-index: -1;
+}
+
+.clientSay-con::before {
+	content: '';
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	background-color: #ffc061;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+
+.client-card-con {
+	display: flex;
+	gap: 30px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.client-card-left {
+	background-color: #f6f6f6;
+	padding: 120px 70px 90px;
+	font-size: 18px;
+	font-weight: 500;
+	color: gray;
+	line-height: 30px;
+	border-radius: 20px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	gap: 30px;
+	position: relative;
+}
+
+.client-card-right {
+	background: linear-gradient(90deg, #40ccfc, #1aecf5);
+	padding: 120px 70px 90px;
+	font-size: 18px;
+	font-weight: 500;
+	color: white;
+	line-height: 30px;
+	border-radius: 20px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	gap: 30px;
+	position: relative;
+}
+
+.left-client-name,
+.right-client-name {
+	position: absolute;
+	bottom: -100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.left-client-name div,
+.right-client-name div {
+	width: 100px;
+	height: 100px;
+	background-color: gray;
+	border-radius: 50%;
+}
+
+.left-client-name h5,
+.right-client-name h5 {
+	margin: 0;
+	font-size: 20px;
+	color: grey;
+}
+
+.left-client-name h6,
+.right-client-name h6 {
+	margin: 0;
+	color: grey;
+}
+
+.pagination-2 {
+	margin: 200px 0 100px 0;
+	display: flex;
+	gap: 10px;
+	justify-content: center;
+}
+
+.pagination-2 div {
+	width: 10px;
+	height: 10px;
+	background-color: #9f90ff5d;
+	border-radius: 50%;
+}
+
+.pagination-2 div:nth-child(3) {
+	width: 50px;
+	height: 10px;
+	background-color: #9f90fffb;
+	border-radius: 15px;
+}
+
+/* responsive design */
+
+@media screen and (max-width: 1620px) {
+	.main-div1-con {
+		padding: 0 20px;
+	}
+
+	.div1-right p,
+	.div1-right p:nth-child(8) {
+		max-width: 100%;
+	}
+}
+
+@media screen and (max-width: 1300px) {
+    .div1-left {
+        height: 552px;
+    }
+
+    .under-ser-div3 p, .under-div1-con, .under-service-op {
+        max-width: 80%;
+    }
+
+    .under-ser-div2{
+        width: 80%;
+    }
+
+    .under-ser-div2 {
+        width: 80%;
+        height: 570px;
+
+    }
+
+    .under-div1-con h1 {
+        font-size: 60px;
+    }
+
+    
+}
+
+
+@media screen and (max-width: 1080px) {
+	.main-div1-con {
+		padding: 0 20px;
+	}
+
+	.div1-con {
+		margin: 50px 0;
+		display: block;
+	}
+
+	.div1-left {
+		height: 550px;
+	}
+
+
+	.under-div1-con {
+		max-width: 100%;
+	}
+
+    
+    .under-service-op {
+        max-width: 100%;
+        margin-top: 50px;
+    }
+
+    .under-ser-div3 p, .under-div1-con{
+        max-width: 100%;
+    }
+
+    .under-ser-div2{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main-div1-con {
+        padding: 0 20px;
+
+    }
+
+    .div1-con {
+        margin: 50px 0;
+        display: block;
+    }
+
+    .client-card-con {
+        gap: 130px;
+        flex-direction: column;
+    }
+
+    .under-div1-con h1,
+    .client-head h1 {
+        font-size: 40px;
+    }
+
+    .under-ser-div1 {
+        flex-direction: column;
+    }
+
+    .under-ser-div1 div {
+        width: auto;
+        height: 208px;
+    }
+
+    .under-ser-div2,
+    .div1-left {
+        height: 344px;
+        margin-bottom: 30px;
+    }
+
+    .client-card-left,
+    .client-card-right {
+        padding: 38px;
+
+    }
+
+    .service-option-con p, span {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width: 460px){
+    .div1-left {
+        height: 226px;
+        margin-bottom: 30px;
+    }
+
+    .under-div1-con h1, .client-head h1 {
+        font-size: 35px;
+    }
+
+    .under-div1-con p, .under-service-op p, .under-ser-div3 p {
+        font-size: 15px;
+        line-height: 31px;
+        font-weight: 500;
+        color: gray;
+    }
+
+    .service-option-con span {
+        margin-left: 0px;
+    }
+
+    .under-ser-div2, .under-ser-div1 div {
+        height: 180px;
+        margin-bottom: 30px;
+    }
+}
+
