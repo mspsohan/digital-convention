@@ -72,7 +72,7 @@ const FeaturedProjects = () => {
                            </div>
                         </div>
                         <Link to="case-studies-single" className={s.pathButton}>
-                           <FaArrowRight className={s.arrow} />
+                           <Link to="/case-studies-single"><FaArrowRight className={s.arrow} /></Link>
                         </Link>
                      </div>
                   </div>

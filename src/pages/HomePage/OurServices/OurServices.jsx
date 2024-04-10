@@ -4,6 +4,7 @@ import serviceImg from "../../../assets/homeAssets/servicesImage.png"
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Link } from 'react-router-dom';
 
 const OurServices = () => {
 
@@ -31,7 +32,7 @@ const OurServices = () => {
                      </div>
                   </div>
                   <button>
-                     <FaArrowRight className={s.arrow} />
+                     <Link to="/services-single"><FaArrowRight className={s.arrow} /></Link>
                   </button>
                </div>
                {/* <!--  2nd card  --> */}
@@ -46,7 +47,7 @@ const OurServices = () => {
                      </div>
                   </div>
                   <button>
-                     <FaArrowRight className={s.arrow} />
+                     <Link to="/services-single"><FaArrowRight className={s.arrow} /></Link>
                   </button>
                </div>
                {/* 3rd card */}
@@ -61,7 +62,7 @@ const OurServices = () => {
                      </div>
                   </div>
                   <button>
-                     <FaArrowRight className={s.arrow} />
+                     <Link to="/services-single"><FaArrowRight className={s.arrow} /></Link>
                   </button>
                </div>
                {/* 4th card */}
@@ -76,7 +77,7 @@ const OurServices = () => {
                      </div>
                   </div>
                   <button>
-                     <FaArrowRight className={s.arrow} />
+                     <Link to="/services-single"><FaArrowRight className={s.arrow} /></Link>
                   </button>
                </div>
                {/* 5th card */}
@@ -91,7 +92,7 @@ const OurServices = () => {
                      </div>
                   </div>
                   <button>
-                     <FaArrowRight className={s.arrow} />
+                     <Link to="/services-single"><FaArrowRight className={s.arrow} /></Link>
                   </button>
                </div>
                {/* 6th card */}
@@ -106,7 +107,7 @@ const OurServices = () => {
                      </div>
                   </div>
                   <button>
-                     <FaArrowRight className={s.arrow} />
+                     <Link to="/services-single"><FaArrowRight className={s.arrow} /></Link>
                   </button>
                </div>
                {/* card end */}

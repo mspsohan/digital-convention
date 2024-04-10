@@ -1,5 +1,4 @@
 import "./notFound.css";
-import { MdKeyboardArrowRight } from "react-icons/md";
 import { IoSearchOutline } from "react-icons/io5";
 import { Link } from "react-router-dom";
 import PageBanner from "../../components/shared/PageBanner/PageBanner";
