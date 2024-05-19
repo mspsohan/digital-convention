@@ -13,7 +13,7 @@ Digital Convention is a comprehensive digital marketing solutions platform dedic
 
 ## Getting Started
 
-To get started with Digital Convention, simply [visit our website](https://digi-cove.vercel.app) and explore our range of services. You can also contact us directly through the website to discuss your digital marketing needs and objectives.
+To get started with Digital Convention, simply [visit our website](https://digi-cove.netlify.app) and explore our range of services. You can also contact us directly through the website to discuss your digital marketing needs and objectives.
 
 ## Contributing
 
@@ -25,7 +25,3 @@ If you have any questions, feedback, or inquiries, please don't hesitate to reac
 
 -  **Email:** mspsohan@gmail.com
 -  **WhatsApp:** +8801789216063
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
