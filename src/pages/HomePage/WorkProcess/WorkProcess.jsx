@@ -4,7 +4,7 @@ import workLogo1 from '../../../assets/homeAssets/Icon.png'
 import workLogo2 from '../../../assets/homeAssets/Icon (1).png'
 import workLogo3 from '../../../assets/homeAssets/Icon (2).png'
 import workLogo4 from '../../../assets/homeAssets/Icon (3).png'
-import workImg from '../../../assets/homeAssets/image.png'
+import workImg from '../../../assets/workProcess/wp.png'
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';

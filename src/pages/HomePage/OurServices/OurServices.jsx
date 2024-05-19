@@ -1,6 +1,11 @@
 import s from './ourServices.module.css';
 import { FaArrowRight } from "react-icons/fa6";
-import serviceImg from "../../../assets/homeAssets/servicesImage.png"
+import seo from "../../../assets/services/seo.jpg"
+import ppc from "../../../assets/services/ppc.png"
+import smm from "../../../assets/services/smm.jpeg"
+import em from "../../../assets/services/em.jpeg"
+import cm from "../../../assets/services/cm.jpeg"
+import wdd from "../../../assets/services/Web-Development-Trends.jpg"
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -22,7 +27,7 @@ const OurServices = () => {
             <div className={s.cardContainer}>
                {/* 1st card */}
                <div data-aos="fade-right" className={s.card}>
-                  <img src={serviceImg} alt="" />
+                  <img src={seo} alt="" />
                   <div className={s.layer}>
                   </div>
                   <div className={s.content}>
@@ -37,7 +42,7 @@ const OurServices = () => {
                </div>
                {/* <!--  2nd card  --> */}
                <div data-aos="fade-up" className={s.card}>
-                  <img src={serviceImg} alt="" />
+                  <img src={ppc} alt="" />
                   <div className={s.layer}>
                   </div>
                   <div className={s.content}>
@@ -52,7 +57,7 @@ const OurServices = () => {
                </div>
                {/* 3rd card */}
                <div data-aos="fade-left" className={s.card}>
-                  <img src={serviceImg} alt="" />
+                  <img src={smm} alt="" />
                   <div className={s.layer}>
                   </div>
                   <div className={s.content}>
@@ -67,7 +72,7 @@ const OurServices = () => {
                </div>
                {/* 4th card */}
                <div data-aos="fade-right" className={s.card}>
-                  <img src={serviceImg} alt="" />
+                  <img src={em} alt="" />
                   <div className={s.layer}>
                   </div>
                   <div className={s.content}>
@@ -82,7 +87,7 @@ const OurServices = () => {
                </div>
                {/* 5th card */}
                <div data-aos="fade-up" className={s.card}>
-                  <img src={serviceImg} alt="" />
+                  <img src={cm} alt="" />
                   <div className={s.layer}>
                   </div>
                   <div className={s.content}>
@@ -97,7 +102,7 @@ const OurServices = () => {
                </div>
                {/* 6th card */}
                <div data-aos="fade-left" className={s.card}>
-                  <img src={serviceImg} alt="" />
+                  <img src={wdd} alt="" />
                   <div className={s.layer}>
                   </div>
                   <div className={s.content}>

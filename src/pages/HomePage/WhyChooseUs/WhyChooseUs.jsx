@@ -2,7 +2,7 @@ import s from './whychooseus.module.css'
 import vector1 from '../../../assets/whyChooseUs/vector1.png'
 import vector2 from '../../../assets/whyChooseUs/vector2.png'
 import vector3 from '../../../assets/whyChooseUs/vector3.png'
-import whyChooseUs from '../../../assets/whyChooseUs/whyChooseUs.png'
+import whyChooseUs from '../../../assets/whyChooseUs/seo3.png'
 import AOSanimation from '../../../components/shared/AOSanimation/AOSanimation'
 
 const WhyChooseUs = () => {

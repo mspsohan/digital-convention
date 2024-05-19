@@ -48,58 +48,34 @@ const Footer = () => {
                            </p>
                         </div>
                      </div>
-                     <div className="linksection">
-                        <ul className="">
-                           <li className="linktitle">Menu</li>
-                           <li>
-                              <a href="#">About Us</a>
-                           </li>
-                           <li>
-                              <a href="#">Services</a>
-                           </li>
-                           <li>
-                              <a href="#">Blog</a>
-                           </li>
-                           <li>
-                              <a href="#">Pricing</a>
-                           </li>
-                           <li>
-                              <a href="#">Contact Us</a>
-                           </li>
-                        </ul>
+
+                     <div className="menu-sec">
+                        <div>
+                           <h2>Menu</h2>
+                           <Link to="#">About us</Link>
+                           <Link to="#">Service</Link>
+                           <Link to="#">Blogs</Link>
+                           <Link to="#">Pricing</Link>
+                           <Link to="#">Contact us</Link>
+                        </div>
                      </div>
-                     <div className="linksection">
-                        <ul className="">
-                           <li className="linktitle">Quick Links</li>
-                           <li>
-                              <a href="#">Privacy Policy</a>
-                           </li>
-                           <li>
-                              <a href="#">Terms & Conditions</a>
-                           </li>
-                           <li>
-                              <a href="#">Cookie Policy</a>
-                           </li>
-                        </ul>
+                     <div className="menu-sec">
+                        <div>
+                           <h2>Quick Links</h2>
+                           <Link to="#">Privacy Policy</Link>
+                           <Link to="#">Term & Conditions</Link>
+                           <Link to="#">Cookie Policy</Link>
+                        </div>
                      </div>
+
                      <div className="socialtitle">
                         <p>Follow Us</p>
                         <div className="socialicon">
-                           <a href="#">
-                              <FaFacebookF />
-                           </a>
-                           <a href="#">
-                              <FaGoogle />
-                           </a>
-                           <a href="#">
-                              <FaTwitter />
-                           </a>
-                           <a href="#">
-                              <FaInstagram />
-                           </a>
-                           <a href="#">
-                              <FaPinterestP />
-                           </a>
+                           <Link to="#"><FaFacebookF /></Link>
+                           <Link to="#"><FaGoogle /></Link>
+                           <Link to="#"><FaTwitter /></Link>
+                           <Link to="#"><FaInstagram /></Link>
+                           <Link to="#"><FaPinterestP /></Link>
                         </div>
                         <p className="copyright">
                            Copyright <Link to="/">@DigiCove.</Link> All Rights Reserved.{" "}

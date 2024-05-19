@@ -1,10 +1,13 @@
+.navbar {
+	max-width: 1920px;
+	margin: 0 auto;
+	z-index: 80;
+}
+
 .navbarMainDiv {
-	/* background: rgb(235, 224, 224); */
 	max-width: 1620px;
-	margin-left: auto;
-	margin-right: auto;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	margin: 0 auto;
+	height: 12vh;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -12,23 +15,28 @@
 
 .navLogoMain {
 	display: flex;
-	align-items: start;
+	align-items: center;
 	gap: 15px;
 	text-decoration: none;
 }
 
 .navLogoText {
 	color: black;
-	font-size: 30px;
-	font-weight: 600;
+	font-size: 36px;
+	font-weight: 700;
 	margin: 0;
 }
 
 .navLinksMain {
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	gap: 40px;
 }
+
+/* .navLinksMain a.active .navLinksText {
+	border-bottom: 2px solid white;
+} */
 
 .navLinksMainModal {
 	padding: 15px;
@@ -38,7 +46,6 @@
 	position: absolute;
 	top: 20px;
 	right: 20px;
-	display: none;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -49,7 +56,7 @@
 .responsiveMenuIcon {
 	display: none;
 }
-
+/* 
 .navLinks {
 	display: flex;
 	justify-content: center;
@@ -57,34 +64,28 @@
 	gap: 3px;
 	text-decoration: none;
 	color: black;
-}
-.downIcon {
-	margin-top: -5px;
-}
+} */
 
 .navLinks:hover {
 	color: #ff7268;
 }
 
-/* .activeNavLink {
+.activeNavLink {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	gap: 3px;
 	text-decoration: none;
 	color: #ff7268;
-} */
+}
 
+.navLinksTextHome,
 .navLinksText {
 	font-size: 17px;
 	font-weight: 600;
-	padding-bottom: 5px;
-	border-bottom: 2px solid white;
-}
-
-.navLinksText:hover {
-	border-bottom: 2px solid #ff7268;
-	color: #ff7268;
+	display: flex;
+	align-items: center;
+	margin-bottom: 5px;
 }
 
 .navLinksSvg {
@@ -92,10 +93,50 @@
 	height: 9px;
 }
 
+.navIcons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: black;
+	gap: 40px;
+	font-size: 25px;
+}
+
+.navIcons button {
+	color: black;
+	border: none;
+	background: transparent;
+	cursor: pointer;
+}
+
+.menubar {
+	font-size: 40px;
+}
+
+.searchbar {
+	font-size: 25px;
+}
+
+#underline {
+	display: block;
+	width: 0;
+	height: 2.5px;
+	background-color: currentColor;
+	transition: width 0.5s ease;
+}
+
+.NavLink:hover #underline,
+.NavLink:focus #underline {
+	width: 100%;
+}
+
+.NavLink {
+	text-decoration: none;
+}
+
 @media screen and (max-width: 1920px) {
 	.navbarMainDiv {
-		padding-left: 20px;
-		padding-right: 20px;
+		padding-inline: 20px;
 	}
 }
 
@@ -106,5 +147,10 @@
 
 	.responsiveMenuIcon {
 		display: block;
+		font-size: 32px;
+	}
+
+	.navIcons {
+		margin-left: 100px;
 	}
 }

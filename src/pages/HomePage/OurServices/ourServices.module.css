@@ -3,6 +3,7 @@
 	margin: 100px auto;
 	overflow: hidden;
 	padding: 0 5px;
+	background: #fff;
 }
 
 .servicesTitle {
@@ -36,23 +37,25 @@
 	grid-template-columns: repeat(3, 1fr);
 	margin-top: 50px;
 	gap: 0.7em;
+	padding: 10px 0;
 }
 
 .card {
 	position: relative;
 	overflow: hidden;
-	max-height: 600px;
-	min-height: 400px;
+	max-height: 500px;
+	min-height: 300px;
 	width: 100%;
-	border-bottom-right-radius: 20px;
+	border-bottom-right-radius: 0px;
 	margin: 0 auto;
 	box-sizing: border-box;
 	text-align: left;
-	box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 5px 10px rgba(145, 145, 145, 0.5);
 }
 .card img {
 	height: 100%;
 	width: 100%;
+	opacity: 60;
 }
 .layer {
 	z-index: 1;
@@ -85,6 +88,7 @@
 	font-size: 80px;
 	color: white;
 	line-height: 0px;
+	display: none;
 }
 
 .details p {
@@ -93,6 +97,29 @@
 	transition: 0.5s;
 	max-width: 200px;
 	z-index: 1;
+	display: none;
+}
+
+.card .details h2,
+.card .details p {
+	display: none; /* Initially hidden */
+}
+
+.card:hover .details h2 {
+	display: block;
+	transition: display 3s, opacity, ease;
+	opacity: 0;
+}
+
+.card:hover .details p {
+	display: block;
+	transition: display 3s, opacity, ease;
+	opacity: 0;
+}
+
+.card:hover .details h2,
+.card:hover .details p {
+	opacity: 1;
 }
 
 .card button {
